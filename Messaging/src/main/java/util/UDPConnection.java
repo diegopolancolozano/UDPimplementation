@@ -3,7 +3,7 @@ package util;
 import java.io.IOException;
 import java.net.*;
 
-public class UDPConnection {
+public class UDPConnection extends Thread {
 
     private DatagramSocket socket;
     private int port;
