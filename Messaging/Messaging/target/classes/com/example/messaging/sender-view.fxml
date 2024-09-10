@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" prefHeight="200.0" prefWidth="300.0" fx:controller="com.example.messaging.SenderController" alignment="CENTER" spacing="10.0">
+    <TextField fx:id="ipTextField" promptText="Enter IP Address"/>
+    <TextField fx:id="messageTextField" promptText="Enter your message here"/>
+    <Button text="Send Message" onAction="#onSendButtonClick"/>
+</VBox>
